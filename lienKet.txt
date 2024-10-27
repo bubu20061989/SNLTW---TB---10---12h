@@ -1,0 +1,9 @@
+Liên kết CSS
+
+<link rel="stylesheet" href="./style.css">
+
+
+liên kết JavaScript
+
+<script src="./script.js"></script>
+
