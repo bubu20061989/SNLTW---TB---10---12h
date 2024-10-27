@@ -1,0 +1,47 @@
+
+/* Container styling */
+.login-container {
+    width: 300px;
+    padding: 20px;
+    margin: 100px auto;
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Input fields styling */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button styling */
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Button hover effect */
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+/* Form title styling */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
