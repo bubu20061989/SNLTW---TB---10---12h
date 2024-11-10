@@ -59,7 +59,7 @@
  .mainpage {
     width: 100%;
     height: 100vh;
-    background-image: url(./Img/First.png);
+    background-image: url(../Img/First.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -184,26 +184,24 @@
     justify-content: center;
     align-items: center;
 }
-.Product .card-container .card .One .addcard{
+.Product .card-container .card .One .addcard {
     background-color: var(--t-r);
     opacity: 0;
     position: absolute;
-    top: -100%;
+    top: 100%; /* Start below the card */
     left: 0;
     right: 0;
-    bottom: 100%;
+    bottom: 0;
     display: flex;  
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: 0.75s;
-
+    transition: top 0.75s, opacity 0.75s; /* Transition both top and opacity */
 }
 
-.Product .card-container .card .One:hover .addcard{
-    top: 0;
-    bottom: 0;
-    opacity: 72%;
+.Product .card-container .card .One:hover .addcard {
+    top: 50%; /* Move it to the center of the card on hover */
+    opacity: 1; /* Full opacity on hover */
 }
 .Product .card-container .card .One .addcard a{
     padding: 15px 70px;
